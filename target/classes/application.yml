@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.sendgrid.net
+    port: 587
+    username: vit.vassarotti@outlook.it
+    password: T$ziSf!j@r6zwV33
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
