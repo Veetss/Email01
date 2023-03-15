@@ -2,7 +2,7 @@ spring:
   mail:
     host: smtp.sendgrid.net
     port: 587
-    username: vit.vassarotti@outlook.it
+    username: email@email.com
     password: password
     properties:
       mail:
