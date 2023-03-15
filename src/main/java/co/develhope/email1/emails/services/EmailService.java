@@ -20,7 +20,7 @@ public class EmailService {
     private JavaMailSender javaMailSender;
 
     public void sendTo (String email, String title, String text) throws IOException {
-        Email from = new Email("vit.vassarotti@outlook.it");
+        Email from = new Email("email@email.com");
         Email to = new Email(email);
         Content content = new Content("text/plain", text);
         Mail mail = new Mail(from, title, to, content);
